@@ -2,7 +2,7 @@ import pygame as pygame
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
 from setting import *
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 
 conf = tf.compat.v1.ConfigProto()
 conf.gpu_options.allow_growth = True
@@ -16,7 +16,7 @@ set_session(session)
 def start_game(model, display, clock):
     max_score = 3
     avg_score = 0
-    test_games = 1000
+    test_games = 100
     steps_per_game = 2000
 
     for _ in range(test_games):
@@ -75,8 +75,8 @@ model = model_from_json(loaded_json_model)
 model.load_weights('model.h5')
 
 
-display_width = 500
-display_height = 500
+display_width = 400
+display_height = 400
 pygame.init()
 display=pygame.display.set_mode((display_width,display_height))
 clock=pygame.time.Clock()

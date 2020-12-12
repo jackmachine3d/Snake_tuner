@@ -5,6 +5,7 @@ Results summary
 Results in C:\Users\agolovanov\PycharmProjects\Snake_tuner\model\untitled_project
 Showing 10 best trials
 Objective(name='val_accuracy', direction='max')
+
 Trial summary
 Hyperparameters:
 activation: tanh
@@ -17,6 +18,7 @@ units_2: 10
 units_3: 12
 units_4: 18
 Score: 0.9999681711196899
+
 Trial summary
 Hyperparameters:
 activation: tanh
@@ -33,6 +35,7 @@ units_6: 28
 units_7: 24
 units_8: 10
 Score: 0.9999462366104126
+
 Trial summary
 Hyperparameters:
 activation: tanh
@@ -49,6 +52,7 @@ units_6: 16
 units_7: 14
 units_8: 20
 Score: 0.9998845458030701
+
 Trial summary
 Hyperparameters:
 activation: relu
@@ -66,6 +70,7 @@ units_7: 22
 units_8: 18
 units_9: 14
 Score: 0.99985271692276
+
 Trial summary
 Hyperparameters:
 activation: elu
@@ -81,6 +86,7 @@ units_5: 22
 units_6: 20
 units_7: 12
 units_8: 20
+
 Score: 0.9996118545532227
 Trial summary
 Hyperparameters:
@@ -94,6 +100,7 @@ units_2: 32
 units_3: 18
 units_4: 10
 Score: 0.9987220168113708
+
 Trial summary
 Hyperparameters:
 activation: relu
@@ -111,6 +118,7 @@ units_7: 10
 units_8: 30
 units_9: 24
 Score: 0.9981905221939087
+
 Trial summary
 Hyperparameters:
 activation: tanh
@@ -128,6 +136,7 @@ units_7: 14
 units_8: 12
 units_9: 20
 Score: 0.997633159160614
+
 Trial summary
 Hyperparameters:
 activation: relu
@@ -144,6 +153,7 @@ units_6: 16
 units_7: 16
 units_8: 26
 Score: 0.9972967505455017
+
 Trial summary
 Hyperparameters:
 activation: selu

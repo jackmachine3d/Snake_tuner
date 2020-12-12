@@ -2,7 +2,7 @@ import tqdm as tqdm
 
 import setting
 
-training_games = 1000
+training_games = 2000
 steps_per_game = 3000
 
 def generate_training_data(display, clock):

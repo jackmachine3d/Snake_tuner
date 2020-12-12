@@ -1,0 +1,162 @@
+
+Best val_accuracy So Far: 0.9999681711196899
+Total elapsed time: 00h 07m 01s
+Results summary
+Results in C:\Users\agolovanov\PycharmProjects\Snake_tuner\model\untitled_project
+Showing 10 best trials
+Objective(name='val_accuracy', direction='max')
+Trial summary
+Hyperparameters:
+activation: tanh
+units_input: 30
+num_layers: 2
+units_0: 32
+units_1: 28
+optimizer: rmsprop
+units_2: 10
+units_3: 12
+units_4: 18
+Score: 0.9999681711196899
+Trial summary
+Hyperparameters:
+activation: tanh
+units_input: 14
+num_layers: 3
+units_0: 28
+units_1: 18
+optimizer: adam
+units_2: 26
+units_3: 26
+units_4: 12
+units_5: 28
+units_6: 28
+units_7: 24
+units_8: 10
+Score: 0.9999462366104126
+Trial summary
+Hyperparameters:
+activation: tanh
+units_input: 20
+num_layers: 4
+units_0: 10
+units_1: 28
+optimizer: adam
+units_2: 22
+units_3: 14
+units_4: 20
+units_5: 26
+units_6: 16
+units_7: 14
+units_8: 20
+Score: 0.9998845458030701
+Trial summary
+Hyperparameters:
+activation: relu
+units_input: 14
+num_layers: 3
+units_0: 20
+units_1: 18
+optimizer: adam
+units_2: 22
+units_3: 30
+units_4: 18
+units_5: 24
+units_6: 16
+units_7: 22
+units_8: 18
+units_9: 14
+Score: 0.99985271692276
+Trial summary
+Hyperparameters:
+activation: elu
+units_input: 24
+num_layers: 3
+units_0: 26
+units_1: 10
+optimizer: adam
+units_2: 24
+units_3: 30
+units_4: 28
+units_5: 22
+units_6: 20
+units_7: 12
+units_8: 20
+Score: 0.9996118545532227
+Trial summary
+Hyperparameters:
+activation: selu
+units_input: 14
+num_layers: 5
+units_0: 16
+units_1: 10
+optimizer: adam
+units_2: 32
+units_3: 18
+units_4: 10
+Score: 0.9987220168113708
+Trial summary
+Hyperparameters:
+activation: relu
+units_input: 22
+num_layers: 3
+units_0: 20
+units_1: 20
+optimizer: rmsprop
+units_2: 18
+units_3: 18
+units_4: 12
+units_5: 26
+units_6: 12
+units_7: 10
+units_8: 30
+units_9: 24
+Score: 0.9981905221939087
+Trial summary
+Hyperparameters:
+activation: tanh
+units_input: 14
+num_layers: 6
+units_0: 12
+units_1: 24
+optimizer: adam
+units_2: 32
+units_3: 14
+units_4: 22
+units_5: 20
+units_6: 24
+units_7: 14
+units_8: 12
+units_9: 20
+Score: 0.997633159160614
+Trial summary
+Hyperparameters:
+activation: relu
+units_input: 22
+num_layers: 5
+units_0: 24
+units_1: 16
+optimizer: rmsprop
+units_2: 28
+units_3: 22
+units_4: 14
+units_5: 16
+units_6: 16
+units_7: 16
+units_8: 26
+Score: 0.9972967505455017
+Trial summary
+Hyperparameters:
+activation: selu
+units_input: 18
+num_layers: 5
+units_0: 16
+units_1: 32
+optimizer: rmsprop
+units_2: 28
+units_3: 24
+units_4: 18
+units_5: 26
+units_6: 30
+units_7: 20
+units_8: 26
+Score: 0.9969145059585571

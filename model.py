@@ -1,6 +1,7 @@
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from kerastuner import RandomSearch, Hyperband, BayesianOptimization
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
+
 def build_model(hp):
 
     model = Sequential()

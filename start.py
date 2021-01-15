@@ -2,9 +2,7 @@ from setting import *
 from model import *
 from training import generate_training_data
 from kerastuner import RandomSearch
-import os
-import tensorflow as tf
-import keras.backend.tensorflow_backend as tfback
+
 
 display_width = 400
 display_height = 400

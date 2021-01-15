@@ -1,9 +1,6 @@
 import pygame
 import random
-import time
 import math
-from tqdm import tqdm
-from training import *
 import numpy as np
 
 def first_position():

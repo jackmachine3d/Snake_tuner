@@ -2,7 +2,7 @@
 Best val_accuracy So Far: 0.9999681711196899
 Total elapsed time: 00h 07m 01s
 Results summary
-Results in C:\Users\agolovanov\PycharmProjects\Snake_tuner\model\untitled_project
+#Results in C:\Users\
 Showing 10 best trials
 Objective(name='val_accuracy', direction='max')
 
